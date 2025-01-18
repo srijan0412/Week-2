@@ -14,7 +14,7 @@ class Circle {
     }
 
     // Member function 
-    // Method to display the details of the book 
+    // Method to display the details of the Circle
     public void displayDetails() {
         System.out.println("radius: " + radius);
     }
