@@ -5,12 +5,12 @@ public class BankAccount {
     private static String bankName = "Central Bank of India";
     private static int totalAccount = 0;
     private String accountHolderName;
-    private final long accountNumber;
+    private final long ACCOUNT_NUMBER;
 
     // Constructor 
-    BankAccount(String accountHolderName, long accountNumber) {
+    BankAccount(String accountHolderName, long ACCOUNT_NUMBER) {
         this.accountHolderName = accountHolderName;
-        this.accountNumber = accountNumber;
+        this.ACCOUNT_NUMBER = ACCOUNT_NUMBER;
         totalAccount++; //Counter is incremented if constructor is called.
     }
 
@@ -19,9 +19,10 @@ public class BankAccount {
         System.out.println("Total accounts are " + totalAccount);
     }
 
+    // Method to display the bank account details 
     public void displayDetails() {
         System.out.println("Account-holder Name: " + accountHolderName);
-        System.out.println("Account no.: " + accountNumber);
+        System.out.println("Account no.: " + ACCOUNT_NUMBER);
         System.out.println("Bank Name: " + bankName);
     }
 }
