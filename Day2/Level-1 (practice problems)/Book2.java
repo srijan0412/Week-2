@@ -49,7 +49,7 @@ public class Book2 {
 
         // Returning the book 
         book.returnABook();
-        
+
         // Output 
         book.displayDetails();
     }
