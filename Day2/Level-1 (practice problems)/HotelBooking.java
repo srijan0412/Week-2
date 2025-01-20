@@ -29,7 +29,7 @@ class HotelBooking {
     public void displayDetails() {
         System.out.println("Guest Name: " + guestName);
         System.out.println("Room Type: " + roomType);
-        System.out.println("number: " + nights);
+        System.out.println("number of nights: " + nights);
     }
 
     public static void main(String[] args) {

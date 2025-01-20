@@ -23,6 +23,20 @@ class Person {
         System.out.println("Person weight" + weight);
     }
 
+    // Getters and setters 
+    public int getHeight() {
+        return height;
+    }
+    public int getWeight() {
+        return weight;
+    }
+    public void setHeight(int height) {
+        this.height = height;
+    }
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
     public static void main(String[] args) {
         // Object creation using parameterised constructor 
         Person person1 = new Person(160, 60);
